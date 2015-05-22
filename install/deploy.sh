@@ -1,7 +1,7 @@
 sudo apt-get remove lighttpd php5-cgi php5-mysql
 sudo apt-get autoremove
 sudo apt-get autoclean
-sudo apt-get install lighttpd php5-cgi php5-mysql
+sudo apt-get install lighttpd php5-cgi php5-mysql debconf-utils
 sudo lighttpd-enable-mod fastcgi
 sudo lighttpd-enable-mod fastcgi-php
 sudo service lighttpd force-reload
