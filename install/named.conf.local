@@ -1,0 +1,10 @@
+// Forward zone
+zone "99.info" {
+        type master;
+        file "/etc/bind/db.99.info";
+};
+//reverse zone
+zone "32.149.80.151.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.151";
+};
