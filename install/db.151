@@ -1,12 +1,12 @@
 ; BIND reverse data file for local loopback interface
 ;
 $TTL    604800
-@ IN SOA ns.krizna.com. root.ns.99h.info. (
+@ IN SOA ns.99h.info. root.ns.99h.info. (
                               1         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
+                             1w         ; Refresh
+                             1d         ; Retry
+                             1m         ; Expire
+                             1w )       ; Negative Cache TTL
 ;
 @      IN      NS      ns.
 5      IN      PTR     ns.99h.info.
