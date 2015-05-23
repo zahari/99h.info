@@ -1,12 +1,13 @@
 ; BIND data file for local loopback interface
 ;
 $TTL    604800
-@ IN SOA ns.99h.info. root.ns.99h.info. (
+@ IN SOA 99h.info. root.99h.info. (
                               1         ; Serial
                              1w         ; Refresh
                              1d         ; Retry
                              1m         ; Expire
                              1w )       ; Negative Cache TTL
+        IN      A       151.80.149.32
 ;
 @       IN      NS      ns.99h.info.
 @       IN      A       151.80.149.32

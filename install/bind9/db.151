@@ -2,7 +2,7 @@
 ;
 $TTL    604800
 @ IN SOA ns.99h.info. root.ns.99h.info. (
-                              1         ; Serial
+                              2         ; Serial
                              1w         ; Refresh
                              1d         ; Retry
                              1m         ; Expire
